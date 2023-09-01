@@ -20,14 +20,27 @@ Welcome to the Capsolver Balance Checker, a sleek PyQt5-based application for ma
 
 ![App Screenshot 1](https://media.discordapp.net/attachments/1146143667187372142/1146982106191376404/image.png)
 
-![App Screenshot 2](https://media.discordapp.net/attachments/1146143667187372142/1146982200957489315/image.png)
-
 ## Getting Started
 
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/capsolver-balance-checker.git```
+   git clone https://github.com/your-username/capsolver-balance-checker.git
 
-2. Install the required dependencies:   
+2. Install the required dependencies:  
+
+   ```bash 
    pip install -r requirements.txt
+
+3. Run the application:
+
+   ```bash 
+   python main.py
+
+### Usage
+
+- **Check Balance**: Enter your API key and click "Check Balance" to see your account balance.
+
+- **Auto Check Balance**: Enable automatic balance checks by clicking the checkbox.
+
+- **API Actions**: Use the tabs on the sidebar to create tasks, get task results, or view your Capsolver account state.
